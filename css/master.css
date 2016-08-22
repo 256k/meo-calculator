@@ -1,0 +1,154 @@
+* {
+  font-family: "Ubuntu"; }
+
+.headbar {
+  width: 100%;
+  border: 1px solid #2F363D;
+  text-align: center;
+  background: #2F363D;
+  color: white; }
+  .headbar img {
+    height: 5vh; }
+
+.infohero {
+  width: 100%;
+  border: 1px solid black;
+  margin: 0;
+  background-image: url("http://meoelectric.com/img/meo.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+  .infohero h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 3em; }
+  .infohero p {
+    line-height: 1.5em;
+    margin: 20px auto;
+    font-size: 1.3em;
+    width: 80%;
+    max-width: 600px;
+    text-align: center; }
+  .infohero .button {
+    cursor: pointer;
+    display: block;
+    border: 1px solid transparent;
+    background: #46accc;
+    border-radius: 5px;
+    height: auto;
+    width: 120px;
+    margin: 20px auto;
+    text-align: center;
+    color: white; }
+    .infohero .button p {
+      margin: auto; }
+  .infohero .button:hover {
+    background: #3a8291; }
+
+.selectwrapper {
+  width: 100%;
+  max-width: 960px; }
+  .selectwrapper .selectheadbar {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #2d61b0;
+    color: white; }
+    .selectwrapper .selectheadbar h1 {
+      margin: 20px; }
+    .selectwrapper .selectheadbar .dropbtn {
+      display: block;
+      cursor: pointer; }
+
+.selectchoicewrapper {
+  background: #21ade9; }
+  .selectchoicewrapper .carboxgrid {
+    overflow: hidden;
+    display: none; }
+  .selectchoicewrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .selectchoicewrapper ul li {
+      margin: 0;
+      width: 100%;
+      height: 80px;
+      color: white;
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+
+.timescrollwrapper {
+  text-align: center; }
+
+.sliderbar {
+  width: 100%; }
+  .sliderbar input {
+    width: 70%;
+    height: 40px;
+    margin: 0 auto; }
+
+.comptablewrapper {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  margin-bottom: 100px; }
+  .comptablewrapper .header {
+    width: 100%;
+    background: #2F363D;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center; }
+  .comptablewrapper .box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .comptablewrapper .box p {
+      width: 50%;
+      margin: 0;
+      padding: 20px 0;
+      border: 1px solid black;
+      text-align: center; }
+
+.namebox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .namebox h1 {
+    background: #2F363D;
+    color: white;
+    width: 50%;
+    margin: 5px 0;
+    padding: 0;
+    text-align: center; }
+  .namebox h1:first-of-type {
+    margin-right: 5px; }
+  .namebox h1:last-of-type {
+    margin-left: 5px; }
