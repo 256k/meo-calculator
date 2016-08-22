@@ -1,0 +1,83 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title Meo-Calculator
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css", media="screen")
+        link( href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet")
+        
+        link(rel='stylesheet', href='css/master.css')
+
+
+    body
+        .headbar
+            .logo
+                img(src="bolt-transparent.png")
+                h1 MeoCalculator
+        
+        .infohero
+            
+            h1.infoheader Electric is the future, now.
+            p.infotext Electric cars are getting more and more popular and also more and more efficient and powerful, the revolution is at hand. Not only can you save money in the long run, but you can also save the environment from Greenhouse effects and pollution. find out more about environmental benefits by clicking the button.
+            .button 
+                p More Info
+        
+        .selectwrapper.car1
+            .selectheadbar
+                h1 Select Car 1
+                h1.dropbtn V
+            .selectchoicewrapper
+                .carboxgrid
+                    ul
+                        li car1
+                        li car2
+                        li car3
+        .selectwrapper.car2
+            .selectheadbar
+                h1 Select Car 2
+                h1.dropbtn2 V
+            .selectchoicewrapper
+                .carboxgrid
+                    ul
+                        li car1
+                        li car2
+                        li car3
+                        li car4
+                        li car5 
+        
+        .timescrollwrapper
+            h1 Select time 
+            .sliderbar
+                input(id="slider" type="range" min="1" max="10" value="1" step="1")
+            h1.timeresult 
+        
+        .comptablewrapper
+            .namebox
+                h1 Car1
+                h1 car2
+            h1.price.header Price
+            .price.box
+                p placeholder text
+                p placeholder text
+            
+            h1.ecost.header Electric cost
+            .ecost.box
+                p placeholder text
+                p placeholder text
+            
+            h1.miles.header Miles
+            .miles.box
+                p placeholder text
+                p placeholder text
+                
+            h1.co2.header CO2 emmissions 
+            .co2.box
+                p placeholder text
+                p placeholder text
+                
+            
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='js/master.js')
