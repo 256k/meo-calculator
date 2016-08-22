@@ -48,9 +48,9 @@
 
 .selectwrapper {
   width: 100%;
-  max-width: 960px;
-  margin: auto; }
+  max-width: 960px; }
   .selectwrapper .selectheadbar {
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
