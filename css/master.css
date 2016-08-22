@@ -1,9 +1,6 @@
 * {
   font-family: "Ubuntu"; }
 
-body {
-  background: #ecece7; }
-
 .headbar {
   width: 100%;
   border: 1px solid #2F363D;
@@ -39,16 +36,20 @@ body {
     border: 1px solid transparent;
     background: #46accc;
     border-radius: 5px;
-    height: 60px;
+    height: auto;
     width: 120px;
     margin: 20px auto;
     text-align: center;
     color: white; }
+    .infohero .button p {
+      margin: auto; }
   .infohero .button:hover {
     background: #3a8291; }
 
 .selectwrapper {
-  width: 100%; }
+  width: 100%;
+  max-width: 960px;
+  margin: auto; }
   .selectwrapper .selectheadbar {
     display: -webkit-box;
     display: -webkit-flex;
@@ -88,7 +89,8 @@ body {
       margin: 0;
       width: 100%;
       height: 80px;
-      border: 1px solid green; }
+      color: white;
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
 
 .timescrollwrapper {
   text-align: center; }
@@ -111,8 +113,10 @@ body {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
-  margin: auto; }
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  margin-bottom: 100px; }
   .comptablewrapper .header {
     width: 100%;
     background: #2F363D;
