@@ -36,19 +36,23 @@
     border: 1px solid transparent;
     background: #46accc;
     border-radius: 5px;
-    height: auto;
+    height: 40px;
     width: 120px;
     margin: 20px auto;
     text-align: center;
     color: white; }
-    .infohero .button p {
-      margin: auto; }
+    .infohero .button a {
+      margin: auto;
+      text-decoration: none;
+      color: inherit;
+      line-height: 40px; }
   .infohero .button:hover {
     background: #3a8291; }
 
 .selectwrapper {
   width: 100%;
-  max-width: 960px; }
+  max-width: 500px;
+  margin: auto; }
   .selectwrapper .selectheadbar {
     width: 100%;
     display: -webkit-box;
@@ -90,7 +94,12 @@
       width: 100%;
       height: 80px;
       color: white;
-      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+      background: transparent;
+      font-size: 4em;
+      text-align: center; }
+    .selectchoicewrapper ul li:hover {
+      background: #333;
+      cursor: pointer; }
 
 .timescrollwrapper {
   text-align: center; }
@@ -99,6 +108,7 @@
   width: 100%; }
   .sliderbar input {
     width: 70%;
+    max-width: 500px;
     height: 40px;
     margin: 0 auto; }
 
@@ -114,7 +124,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  max-width: 960px;
+  max-width: 500px;
   margin: auto;
   margin-bottom: 100px; }
   .comptablewrapper .header {
@@ -134,7 +144,8 @@
       margin: 0;
       padding: 20px 0;
       border: 1px solid black;
-      text-align: center; }
+      text-align: center;
+      font-size: 1.5em; }
 
 .namebox {
   display: -webkit-box;
