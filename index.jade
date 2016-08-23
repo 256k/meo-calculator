@@ -22,31 +22,27 @@ html(lang='en')
             h1.infoheader Electric is the future, now.
             p.infotext Electric cars are getting more and more popular and also more and more efficient and powerful, the revolution is at hand. Not only can you save money in the long run, but you can also save the environment from Greenhouse effects and pollution. find out more about environmental benefits by clicking the button.
             .button 
-                p More Info
+                a(href="#") More Info
 
-            .selectwrapper
-                .selectheadbar
-                    h1 Select Car 1
-                    h1.dropbtn V
-                .selectchoicewrapper
-                    .carboxgrid
-                        ul
-                            li text
-                            li text
-                            li text
+        .selectwrapper
+            .selectheadbar
+                h1 Select Car 1
+                h1.dropbtn V
+            .selectchoicewrapper
+                .carboxgrid
+                    ul.car1
+                        
 
-            .selectwrapper
-                .selectheadbar
-                    h1 Select Car 2
-                    h1.dropbtn V
-                .selectchoicewrapper
-                    .carboxgrid
-                        ul
-                            li text
-                            li text
-                            li text
+        .selectwrapper
+            .selectheadbar
+                h1 Select Car 2
+                h1.dropbtn V
+            .selectchoicewrapper
+                .carboxgrid
+                    ul.car2
+                        
 
-            
+        
         .timescrollwrapper
             h1 Select time 
             .sliderbar
@@ -55,27 +51,31 @@ html(lang='en')
         
         .comptablewrapper
             .namebox
-                h1 car1
-                h1 car2
+                h1.first 
+                h1.second 
+            h1.type.header Type
+            .type.box
+                p.first 
+                p.second 
             h1.price.header Price
             .price.box
-                p 
-                p 
+                p.first 
+                p.second 
             
-            h1.ecost.header Electric cost
-            .ecost.box
-                p 
-                p 
+            h1.fuel.header Fuel cost
+            .fuel.box
+                p.first 
+                p.second 
             
-            h1.miles.header Miles
-            .miles.box
-                p 
-                p 
+            h1.maintenance.header Maintenance cost 
+            .maintenance.box
+                p.first 
+                p.second 
                 
-            h1.co2.header CO2 emmissions 
-            .co2.box
-                p 
-                p 
+            h1.totalcost.header Total costs
+            .totalcost.box
+                p.first 
+                p.second 
                 
             
 
